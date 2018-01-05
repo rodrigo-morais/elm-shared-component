@@ -1,0 +1,11 @@
+version: '2'
+services:
+  spa:
+    build: .
+    command: node server.js
+    volumes:
+      - .:/app/
+      - /app/node_modules
+      - /app/dist
+    ports:
+      - "8000:8000"

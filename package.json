@@ -1,0 +1,24 @@
+{
+  "name": "shared-component",
+  "version": "0.0.1",
+  "description": "This is a Shared Component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "elm-test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://user@github.com/user/shared-component.git"
+  },
+  "keywords": [
+    "Elm",
+    "Shared Component"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+  }
+}
