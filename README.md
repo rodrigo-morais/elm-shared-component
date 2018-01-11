@@ -8,6 +8,8 @@ This is a shared component in Elm language
 ```
 docker-compose down
 docker-compose up --build
+
+Access your app in: http://localhost:8000
 ```
 
 ## Build
